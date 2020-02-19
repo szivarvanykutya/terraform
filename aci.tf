@@ -18,3 +18,4 @@ resource "aci_vrf" "VRF-ANDRAS" {
     tenant_dn   = "${aci_tenant.TN-ANDRAS.id}"
     name        = "VRF-ANDRAS"
 }
+# descr
