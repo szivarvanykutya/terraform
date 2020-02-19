@@ -16,7 +16,7 @@ resource "aci_tenant" "TN-ANDRAS2" {
 # VRFS
 resource "aci_vrf" "VRF-ANDRAS" {
     tenant_dn   = "${aci_tenant.TN-ANDRAS.id}"
-    name        = "VRF-ANDRAS"
+    name        = "VRF-ANDRASs"
 }
 # descr
 # descr
